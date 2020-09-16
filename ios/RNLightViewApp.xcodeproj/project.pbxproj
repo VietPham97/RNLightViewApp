@@ -11,6 +11,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13EF09AC250A740000F09B85 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF09AB250A740000F09B85 /* PieChartView.swift */; };
+		13EF09AE250A743000F09B85 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF09AD250A743000F09B85 /* PieChart.swift */; };
+		13EF09B0250A743E00F09B85 /* PieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EF09AF250A743E00F09B85 /* PieChart.m */; };
+		13EF09B2250A79A700F09B85 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EF09B1250A79A700F09B85 /* UIColor+Ext.swift */; };
 		13F1517B24F454B6003E791B /* BulbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F1517A24F454B6003E791B /* BulbView.swift */; };
 		13F1517D24F456F3003E791B /* Bulb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F1517C24F456F3003E791B /* Bulb.swift */; };
 		13F1517F24F45767003E791B /* Bulb.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F1517E24F45767003E791B /* Bulb.m */; };
@@ -53,6 +57,10 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNLightViewApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNLightViewApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNLightViewApp/main.m; sourceTree = "<group>"; };
+		13EF09AB250A740000F09B85 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		13EF09AD250A743000F09B85 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		13EF09AF250A743E00F09B85 /* PieChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChart.m; sourceTree = "<group>"; };
+		13EF09B1250A79A700F09B85 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		13F1517924F454B6003E791B /* RNLightViewApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNLightViewApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		13F1517A24F454B6003E791B /* BulbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbView.swift; sourceTree = "<group>"; };
 		13F1517C24F456F3003E791B /* Bulb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulb.swift; sourceTree = "<group>"; };
@@ -142,6 +150,10 @@
 				13F1517A24F454B6003E791B /* BulbView.swift */,
 				13F1517C24F456F3003E791B /* Bulb.swift */,
 				13F1517E24F45767003E791B /* Bulb.m */,
+				13EF09AB250A740000F09B85 /* PieChartView.swift */,
+				13EF09AD250A743000F09B85 /* PieChart.swift */,
+				13EF09AF250A743E00F09B85 /* PieChart.m */,
+				13EF09B1250A79A700F09B85 /* UIColor+Ext.swift */,
 				13F1517924F454B6003E791B /* RNLightViewApp-Bridging-Header.h */,
 			);
 			name = RNLightViewApp;
@@ -578,9 +590,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13EF09AC250A740000F09B85 /* PieChartView.swift in Sources */,
 				13F1517F24F45767003E791B /* Bulb.m in Sources */,
 				13F1517B24F454B6003E791B /* BulbView.swift in Sources */,
+				13EF09AE250A743000F09B85 /* PieChart.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13EF09B0250A743E00F09B85 /* PieChart.m in Sources */,
+				13EF09B2250A79A700F09B85 /* UIColor+Ext.swift in Sources */,
 				13F1517D24F456F3003E791B /* Bulb.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);

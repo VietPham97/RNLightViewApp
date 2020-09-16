@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View, requireNativeComponent } from 'react-native';
 
 const Bulb = requireNativeComponent("Bulb");
+const PieChart = requireNativeComponent("PieChart");
 
 export default class App extends Component {
 
@@ -20,8 +21,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.top}>
-          <Text>This state of Bulb come from Native Code to JavaScript</Text>
-          <Text>{this.state.isOn ? "Bulb is ON" : "Bulb is OFF"}</Text>
+          <PieChart colorBackground={"#EEEEEE"} colorForeground={"#ED1F5D"} style={{ height: 100, width: 100 }}/>
         </View>
         <Bulb style={styles.bottom} isOn={this.state.isOn} onStatusChange={this._onStatusChange} />
       </View>
